@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # locals apps
+    'accounts',
     'blog1',
     'instagram',
     # third apps
@@ -139,4 +140,4 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-# AUTH_USER_MODEL = 'instagram.User' # 플젝 만들자 마자 작성 
+# AUTH_USER_MODEL = 'instagram.User' # 플젝 만들자 마자 작성
